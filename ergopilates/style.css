@@ -1,0 +1,175 @@
+@CHARSET "ISO-8859-1";
+body{background-color: #000000;font-family:"Arial"; }
+#content{background-color: #fbfbfc;width:975px;margin: 0 auto; }
+#logo{width:254px;height:79px;margin-left: 40px;}
+#logo img{}
+#header{width:922px;height:246px;background-image: url("images/header.jpg");margin-left:25px;}
+.hr{background-image: url("images/hr.gif");	height: 5px;}
+.hr2{background-image: url("images/hr.gif");	height: 5px;}	
+label.error {color: red; vertical-align: top; }
+h1{color:#4c1a61;font-size:20pt;}
+#foot-copy{position: absolute; margin-left: 50px; margin-top:25px; font-size:10pt; color:gray;}
+	
+/*CONTENEDORES*/
+#right-panel {position: absolute; float:left;}
+#cita {position: absolute; float:left; margin-left: 690px;margin-top:40px; width:120px ;}
+#estetica {position: absolute; margin-left: 830px;margin-top:40px; width:120px; border: 1px solid;}
+#blog {position: absolute; float: left; margin-left: 680px;margin-top: 310px; }
+#blogger {margin-top:-80px;margin-left:18px;background-image: url("images/blog2.jpg");}
+
+#video{position: absolute; float: left; margin-left: 685px; margin-top: 460px; }
+#i_video{width: 250px; height: 250px;}
+#i_video_div{position: absolute; float: left; margin-top:-260px; margin-left:12px; width:100px;}
+
+#social{position: absolute; float: left; margin-left: 685px;margin-top: 800px; }
+#social #fb-div{position:absolute; float:left;margin-top:-275px; margin-left:10px; width:100px;}
+#social .fb-like-box{}
+
+#siguenos {position: absolute; float: left; margin-left: 680px;margin-top:180px; } #siguenos img {}
+#siguenos-content #sc1{position:absolute; margin-top: -75px; margin-left:80px;}
+#siguenos-content #sc2{position: absolute; margin-top: -75px; margin-left:130px;}
+#siguenos-content #sc3{position:absolute; margin-top: -75px; margin-left:180px;}
+#siguenos-content #sc4 {position:absolute; margin-top: -40px; margin-left:15px; font-size: 9pt;}#siguenos-content #sc4 a{text-decoration: none;}
+
+#c1{margin-left:40px;margin-top:40px;}
+#c1 img {border: 1px solid; }
+#c1 a{text-decoration:none; border:0px;}
+
+#c2{margin-left:40px;margin-top:30px;}
+#c2 img {border: 1px solid;width:270px; height: 200px; margin-right:15px; margin-left:15px;}
+
+#c3{margin-left:40px;margin-top:30px;  height: 130px;}
+#see-all{position:absolute;color:#FFFFFF;margin-left:540px;margin-top:11px;font-size: 9pt;font-weight: bold;text-decoration: none}
+
+#c31{position: absolute; margin-top:-165px;margin-left:30px} #c31 img{width: 100px; height: 100px;} #c31 span{margin-top:110px;margin-left:0px;font-size: 10pt;}
+#c32{position: absolute; margin-top:-165px;margin-left:190px} #c32 img{width: 100px; height: 100px;} #c32 span{margin-top:110px;margin-left:0px;font-size: 10pt;}
+#c33{position: absolute; margin-top:-165px;margin-left:340px} #c33 img{width: 100px; height: 100px;} #c33 span{margin-top:110px;margin-left:0px;font-size: 10pt;}
+#c34{position: absolute; margin-top:-165px;margin-left:490px} #c34 img{width: 100px; height: 100px;} #c34 span{margin-top:110px;margin-left:0px;font-size: 10pt;}
+
+#c4{margin-left:40px;margin-top:150px;}
+#see-allc4{position:absolute;color:#FFFFFF;margin-left:475px;margin-top:17px;font-size: 9pt;font-weight: bold;text-decoration: none}
+
+#c41{width:150px;height:165px;position:absolute; margin-top:-220px;margin-left:55px}  #c41 p{font-size:10pt;} 
+#c42{width:150px;height:165px;position:absolute; margin-top:-220px;margin-left:240px} #c42 p{font-size:10pt;}
+#c43{width:150px;height:165px;position:absolute; margin-top:-220px;margin-left:422px} #c43 p{font-size:10pt;}
+#c41 ol {font-size:10pt;}
+#c42 ol {font-size:10pt;}
+#c43 ol {font-size:10pt;}
+.tnoticia {font-size:10pt; font-weight: bold; color: #ff6701;}
+.cnoticia{font-size:10pt; color:black; font-weight: normal;}
+
+
+/*NAVEGADOR*/
+#nav{background-image: url("images/nav.png");
+height: 50px; width: 975px; margin-top:-80px;	}
+#navi {list-style:none;	margin-top:-50px; margin-left:40px;}
+#navi li {padding:0;float:left; height: 50px;}
+#navi li span{margin-top:50px;}
+#navi li a {display:block;  text-decoration:none; text-align:center; height: 50px;margin-left:10px;
+margin-top:10px;color:#848484; font-size:14pt ;font-family:"Arial"; padding-left: 10px; padding-right: 10px;}
+#navi li a:hover {/*background-image:url("images/nav-hover.png") -10px; color:#FFFFFF;*/color:#0099cd;}
+
+/*CONTACTO*/
+#contacto{margin-top:50px;width:600px; min-height:1100px;}
+#mapa{margin-top:50px;margin-left:40px;color:#4c1a61;}
+#mapa #hr{background-image: url("images/hr.gif");height: 5px;width:600px;margin-top:-25px;}
+#datos{margin-left:40px;}
+#datos h3{position:absolute;float:left;margin-top:-135px;margin-left:200px;color:#4c1a61;}
+#datos #sub-datos {position:absolute; float:left;margin-top:-107px;margin-left:210px;font-size:8pt;}
+#datos #sub-datos label{margin-top:-3px; font-size:8pt;}
+#form-contacto{margin-left:40px;color:#4c1a61;}
+#form-contacto #hr{background-image: url("images/hr.gif");height: 5px;width:600px;margin-top:0px;}
+
+
+/*KINESIS*/
+#kinesis{margin-top:50px;margin-left:40px;width:600px;}
+#kinesis #hr{background-image: url("images/hr.gif");height: 5px;width:600px;margin-top:-25px;}
+#kinesis h2{color:#4c1a61;font-size:20pt;}
+#kinesis p{margin:20px; font-size:13pt;}
+#kinesis_text{height:650px; background-image:url("images/bg_personal2.jpg");margin:20px;margin-top:0px;}
+#entrenadores{margin-left:40px;margin-top:-40px;font-size:11pt;}
+#entrenadores #hr{background-image: url("images/hr.gif");height: 5px;width:600px;margin-top:-15px;}
+#entrenadores h2{color:#9e62c2; font-size:11pt;}
+#et1  { float:left;width:300px;padding:10px;} #et1 p{margin-right:20px;font-size:11pt;}
+#et2  {float:left;width:300px;padding:10px;} #et2 p{margin-right:20px;font-size:11pt;}
+
+/*SERVICIOS*/
+#servicios{margin-top:50px;margin-left:40px;width:600px; min-height:1100px;}
+#servicios a{text-decoration: none;}
+#servicios #hr{background-image: url("images/hr.gif");height: 5px;width:600px;margin-top:-25px;}
+#servicios h2{color:#4682B4;margin-top:10px;margin-left:20px;font-size: 17pt;}
+#servicios p{margin:5px;font-size: 10pt; margin-top:140px;margin-left:20px;}
+#servicio_texto p{margin:5px;font-size: 11pt; margin-left:20px;}
+
+#osteopatia{margin:10px;float:left;background-image: url("images/osteopatia.png");width:275px;height:219px;}
+#pilates{margin:10px;float:left;background-image: url("images/pilates.png");width:275px;height:219px;}
+#nutricion{margin:10px;float:left;background-image: url("images/nutricion.png");width:275px;height:219px;}
+#podologia{margin:10px;float:left;background-image: url("images/podologia.png");width:275px;height:219px;}
+#estetic{margin:10px;float:left;background-image: url("images/estetica.png");width:275px;height:219px;}
+#personal{margin:10px;float:left;background-image: url("images/epersonal.png");width:571px;height:279px;}
+#personal p{margin-top:132px;}
+
+/*CENTRO*/
+#centro{margin-top:50px;margin-left:40px;width:600px; min-height:1100px;}
+#centro #hr{background-image: url("images/hr.gif");height: 5px;width:600px;margin-top:-25px;}
+#centro ol {text-align: justify; font-size: 10pt;}
+#centro ol li{padding:10px;}
+/*tabla horarios*/
+#centro table {	width: 600px;padding: 0;margin: 0;}
+#centro caption {padding: 0 0 5px 0;width: 700px;font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;text-align: right;}
+#centro th {font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;color: #4f6b72;border-right: 1px solid #C1DAD7;border-bottom: 1px solid #C1DAD7;border-top: 1px solid #C1DAD7;
+	letter-spacing: 2px;text-transform: uppercase;text-align: left;	padding: 6px 6px 6px 12px;background: #CAE8EA url(images/bg_header.jpg) no-repeat;}
+#centro th.nobg {border-top: 0;	border-left: 0;	border-right: 1px solid #C1DAD7; background: none;}
+#centro td {border-right: 1px solid #C1DAD7; border-bottom: 1px solid #C1DAD7;	background: #fff;	padding: 6px 6px 6px 12px;	color: #4f6b72;}
+#centro td.alt {background: #F5FAFA;color: #797268;}
+#centro th.spec {border-left: 1px solid #C1DAD7;border-top: 0;background: #fff url(images/bullet1.gif) no-repeat;font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+#centro th.specalt {border-left: 1px solid #C1DAD7;	border-top: 0;background: #f5fafa url(images/bullet2.gif) no-repeat;font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #797268;
+}
+#centro .hr2{background-image: url("images/hr.gif");height: 5px;width:600px;margin-top:-25px;}
+
+
+/*AREA CLIENTES*/
+#user_panel #login{position:absolute;margin-top:10px;margin-left: 10px; font-size: 10pt;}
+
+#user_panel {width:201px;height:82px; font-size:11pt;color:white;font-weight:bold;:201px; height:82px;background-image: url("images/bg_user.jpg");}
+#user_panel span {position:absolute; margin-top: 20px; margin-left: 30px;}
+#user_panel #user_name {color:#9dd6ea;}
+#user_panel #logout{position:absolute; margin-left:80px;}
+#user_panel #logout a{padding:2px;}
+
+#title_panel{position:absolute; margin-left:230px;}
+#title_panel #hr{width:400px;}
+
+#doc_panel {margin-top: 20px;}
+#nav_docs div{margin-bottom:12px;}
+#nav_docs a {color:#4c1a61;}
+#nav_docs span{font-weight: bold; position:absolute; margin-top:13px; margin-left:20px;}
+
+#doc_panel #docs{ position:absolute; margin-top:-90px; padding:20px; margin-left:230px; width:360px; background-color: #e7e7e9; widht:300px; }
+#doc_panel #docs img {width:50px;}
+#doc_panel #docs span {position:absolute; margin-top:15px; margin-left:30px;}
+#doc_panel #docs div {padding:5px;}
+#doc_panel #docs div:hover {background-color: white;}
+
+/*GALERIA*/
+.contentg {color: #777; font: 12px/1.4 "helvetica neue", arial, sans-serif;	width: 620px;	margin: 20px auto;}
+.cred {margin-top: 20px;	font-size: 11px;}
+#galleria {	height: 320px}
+
+/*GALERIA VIDEO*/
+* { margin: 0; padding: 0; }   
+ul li { display: inline-block;}
+.wide {border-bottom: 1px #000 solid;width: 4000px;}
+.fleft { float: left; margin: 0 20px 0 0; }
+.cboth { clear: both; }
+#main { margin: 0 auto; padding: 30px; width: 1000px;}
+
+
+/*TESTIMONIOS + modal*/
+.testimonio{background-color: #2b2b2b; padding:5px;}
+.testimonio_nombre{color: #ffffff; font-weight: bold; position: absolute; margin-left: 110px; margin-top:-90px;}
+.testimonio_act{ font-size:10pt; color: #77c9ef; position: absolute; margin-left: 110px; margin-top:-70px;}
+.testimonio_test {color:white;font-size:11pt; margin-top:10px; margin-left:5px;}
+.trstimonio_tes p {padding:5px;}
+.testimonio_foto{width: 100px; height: 100px;}

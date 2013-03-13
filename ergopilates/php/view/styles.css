@@ -1,0 +1,51 @@
+
+body{
+	background:#708090;
+	}
+table{
+	width:100%;
+	}
+.container td{vertical-align: top;}
+.form{
+	}
+.idiomas_prod{
+	background:#FFFFFF;
+	border:0px solid;
+	width:370px;
+	/*float:right;*/
+	margin-left:00px;
+}
+		
+.headers{
+	background:#24292f;
+	color:#FFFFFF;
+	margin-bottom:5px;
+	padding:5px;
+	}
+
+.headers a{
+	float:right;
+	text-decoration:none;
+	color:#FFFFFF;
+	}
+	.headers a:hover{
+	float:right;
+	text-decoration:none;
+	color:#FFFFFF;
+	}
+.buttons{
+	text-align: right;
+	border-top: solid 1px;
+}
+.header{
+	background: url(../../images/logo.jpg) no-repeat;
+	height:120px;
+	}
+#formulario label.error{ color:red;}
+/*.formularios{margin-left:380px;}*/
+.images_prod{background:#FFFFFF;border:1px solid;/*position: absolute;*/float:left;width:350px;}
+.mini{margin-left:20px;}
+.mini img{width:85px;height:75px;position:relative;float:left;padding:8px;display:inline;}
+.mini .color{height: 20px;width:20px;margin-top:40px;float:left;border:1px solid;}
+.mini .del{float:left;margin-left:-30px;}
+.mini .del img{width:20px;height:20px;}
